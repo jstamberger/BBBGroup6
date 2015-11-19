@@ -13,13 +13,10 @@
 	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
 	}
-
-	@media screen and (max-width: 768px) {
 	
 
 body {
 text-align: center;
-width: 100%;
   max-width: 1000px;
   padding: 1em;
 }
