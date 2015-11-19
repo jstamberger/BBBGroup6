@@ -14,9 +14,9 @@
 	font-family: 'Dosis', sans-serif;
 	}
 	
-@media screen and (min-width: 480px){	
+
 body {
-	background-color: lightgreen;
+	background-color: 220,20,60;
 text-align: center, left;
 max-width: 100%;
   padding: 4em, 1em;
