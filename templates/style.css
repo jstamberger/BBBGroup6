@@ -10,13 +10,13 @@
 
 
 *{
+	background-color: B22222;
 	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
 	}
 	
 
 body {
-	background-color: B22222;
 text-align: center, left;
 max-width: 100%;
   padding: 4em, 1em;
