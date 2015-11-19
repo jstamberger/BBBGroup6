@@ -38,8 +38,4 @@ h1, h2, h3{
   font-family: 'Nunito', sans-serif;
 }
 
-@media and screen (max-width: 1300px) and (min-width: 480px){
-	.footer {
-		text-align: center, left;
-	}
-}
+
