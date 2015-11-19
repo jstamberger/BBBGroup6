@@ -37,3 +37,10 @@ h1, h2, h3{
   font-size: 1.5em;
   font-family: 'Nunito', sans-serif;
 }
+
+@media and screen (max-width: 600px){
+	.img {
+		float: none;
+		margin: 0;
+		width: 100%;
+}
