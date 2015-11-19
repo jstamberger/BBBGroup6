@@ -14,14 +14,12 @@
 	font-family: 'Dosis', sans-serif;
 	}
 	
-@media only screen 
-  and (min-device-width: 320px) {
-  and (max-device-width: 480px) {
+	@media screen and (max-width: 1300px) and (min-width: 480px){
+	
 body {
-text-align: center;
-  max-width: 1000px;
-  padding: 1em;
-  width: 50%;
+text-align: center, left;
+  max-width: 100%;
+  padding: 4em, 1em;
 }
 
 div, section, main, aside, header, footer {
