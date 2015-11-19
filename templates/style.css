@@ -16,14 +16,14 @@
 	
 
 body {
-	background-color: #BC8F8F;
+	background-color: #D2B48C;
 text-align: center, left;
 max-width: 100%;
   padding: 4em, 1em;
 }
 
 div, section, main, aside, header, footer {
-	background-color: #D2B48C;
+	background-color: 
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
