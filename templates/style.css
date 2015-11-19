@@ -39,8 +39,7 @@ h1, h2, h3{
 }
 
 @media and screen (max-width: 600px){
-	.img {
-		float: none;
-		margin: 0;
-		width: 100%;
+	footer {
+		text-align: center;
+	}
 }
