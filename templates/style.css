@@ -23,7 +23,7 @@ max-width: 100%;
 }
 
 div, section, main, aside, header, footer {
-	background-color: #F8F8FF;
+	background-color: rgb(225, 218, 218);
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
