@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
 #page-wrap {
+	text-align: left;
 	width: 800px;
 	margin: 0 auto;
 }
@@ -11,6 +12,7 @@
 }
 
 body {
+text-align: center;
   max-width: 1000px;
   padding: 1em;
 }
