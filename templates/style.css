@@ -28,6 +28,9 @@ div, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
+footer {
+	text-align: center;
+}
 
 img {
 	max-width: 100%;
