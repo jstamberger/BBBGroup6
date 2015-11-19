@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
+	media="all"
+.page-wrapper {
+    position: relative;
+overflow: hidden;
 
 #page-wrap {
 	text-align: left;
@@ -14,6 +18,7 @@
 	font-family: 'Dosis', sans-serif;
 	}
 	
+
 
 body {
 	background-color: rgb(104, 11, 3);
