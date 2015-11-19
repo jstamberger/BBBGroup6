@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
+center {
+	margin: auto;
+	width: 60%;
+	border: 3px;
+	padding: 10px;}
+
 *{
 	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
