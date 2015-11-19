@@ -18,7 +18,7 @@
 	
 body {
 text-align: center, left;
-max-width: 100%, 60%;
+max-width: 100%;
   padding: 4em, 1em;
 }
 
@@ -27,11 +27,12 @@ div, section, main, aside, header, footer {
   padding: .5em;
   margin-bottom: 1em;
 }
+@media screen and (max-width: 1300px) and (min-width: 480px){
 img {
 	max-width: 100%;
 }
 
 h1, h2, h3{
-  font-size: 1.5em;
+  font-size: 1.5em, 5em;
   font-family: 'Nunito', sans-serif;
 }
