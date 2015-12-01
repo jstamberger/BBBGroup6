@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Dosis);
 
+<<<<<<< HEAD
 
 ul#list-nav {
   margin:20px;
@@ -31,22 +33,47 @@ ul#list-nav li a:hover {
   color:#000
 }
 
+=======
+	
+
+#page-wrap {
+	text-align: left;
+	width: 800px;
+	margin: 0 auto;
+}
+
+
+*{
+	font-size: 1em;
+	font-family: 'Dosis', sans-serif;
+	}
+	
+>>>>>>> origin/gh-pages
 body {
-  max-width: 1000px;
-  padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+	background-color: rgb(104, 11, 3);
+text-align: center, left;
+max-width: 100%;
+  padding: 4em, 1em;
 }
 
 div, section, main, aside, header, footer {
+	background-color: #FFFAF0;
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
 }
+footer {
+	text-align: center;
+}
+
 img {
 	max-width: 100%;
 }
 
-h1{
+
+h1, h2, h3{
   font-size: 1.5em;
   font-family: 'Nunito', sans-serif;
 }
+
+
