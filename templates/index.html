@@ -8,27 +8,18 @@
     <meta name="description" content="Page Description Goes Here">
   </head>
   <body>
-<<<<<<< HEAD
-<header>
-<img src="headerphoto.jpg" alt="Header Image" width="800"/>
-<img src="bbbuckeye_logo.svg" alt="BBB Logo" width="150"/>
-<nav>
-<ul id="list-nav">
-=======
-  <div id="page-wrap">
-<header role="banner">
-<img src="headerphoto.jpg" alt="Header Image"/>
+<div id="logo">
 <img src="bbbuckeye_logo.svg" alt="BBB Logo"/>
+</div>
+
+<main role="main">
 <nav role="navigation">
-<ul>
->>>>>>> origin/gh-pages
+<ul id="list-nav">
   <li><a href="#welcome">Welcome</a></li>
   <li><a href="#reservations">Reservations</a></li>
   <li><a href="#lodging">Lodging</a></li>
 </ul>
 </nav>
-</header>
-<main role="main">
   <h1 id="welcome"> Welcome </h1>
 <img src="Owners-Buckeye.jpg" alt="BBB Owners" height="250"/>
      <p>Louise and Darrell Johnson, have prepared every detail to ensure that your
@@ -39,7 +30,6 @@ landscaping and stunning views.The house was built by Samuel Hannaford for Colon
 Taylor, an influential 19th century educator, attorney, business leader, and politician. Col. Taylor
 was influential in the development of Cambridge, Ohio and built a Queen Anne style mansion to reflect his status.
     </p>
-	</main>
     <select>
     <option value=""> Select a Package</option>
     <option value="Sweetheart Package"> Sweetheart Package</option>
@@ -90,17 +80,17 @@ A self guided Wine tour at your leisure! Do one or all three... Start in town wi
   <p> At Buckeye Bed and Breakfast, you will find yourself surrounded by rustic aesthetics
        and a homey atmosphere. When making a reservation with us, be sure to explore our 4
        unique rooms to find what fits your vacation desires best.
-
-  </p>
-<img src="sugar-maple-header.jpg" alt="room1"/>
-<img src="out of africa.jpg" alt="bedroom1"/>
-<img src="tree top room.jpg" alt="bedroom2"/>
-<img src="sweetheart_haven.jpg" alt="bedroom3"/>
-<img src="enchantment bedroom.jpg" alt="bedroom4"/>
-<img src="bed-and-breakfast-room-with-a-view-aj4vaekj.jpg" alt="room2"/>
-<img src="evergreen-header-23.jpg" alt="room3"/>
-<img src="breakfast-in-bed.jpg" alt="room4"/>
-
+</p>
+<div class="gallery js-flickity">
+<div class="gallery-cell"><img  src="sugar-maple-header.jpg" alt="room1"/></div>
+<div class="gallery-cell"><p>Out of Africa</p><img src="outofafrica.jpg" alt="bedroom1"/></div>
+<div class="gallery-cell"><img src="treetoproom.jpg" alt="bedroom2"/></div>
+<div class="gallery-cell"><img src="sweetheart_haven.jpg" alt="bedroom3"/></div>
+<div class="gallery-cell"><img src="enchantmentbedroom.jpg" alt="bedroom4"/></div>
+<div class="gallery-cell"><img src="bed-and-breakfast-room-with-a-view-aj4vaekj.jpg" alt="room2"/></div>
+<div class="gallery-cell"><img src="evergreen-header-23.jpg" alt="room3"/></div>
+<div class="gallery-cell"><img src="breakfast-in-bed.jpg" alt="room4"/></div>
+</div>
     
 <h3>Sweetheart Haven</h3>
 <p>Your romantic master suite is appointed with a spacious king size bed, and French doors which lead onto a second story balcony with intimate views of the Smoky Mountains. Your private bath is appointed with a marble double vanity, marble tile and jet tub.</p>
@@ -127,5 +117,8 @@ A self guided Wine tour at your leisure! Do one or all three... Start in town wi
       <!-- The page content goes here -->
       <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
   </div>
+</main> 
+<link rel="stylesheet" href="flickity.css" media="screen">
+<script src="flickity.pkgd.min.js"></script> 
   </body>
 </html>
