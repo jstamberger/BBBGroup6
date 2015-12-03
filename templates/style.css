@@ -62,7 +62,41 @@ ul#list-nav li a:hover {
   background:#a2b3a1;
   color:#000
 }
-	
+	ul.events-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+	}
+ul.events-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+ 
+}
+
+ul.events-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
 
 #page-wrap {
 	text-align: left;
@@ -120,6 +154,8 @@ img {
   background-color:rgb(104, 11, 3);
   width:100%;
 }
+
+
 
 h1, h2, h3{
   font-size: 1.5em;
