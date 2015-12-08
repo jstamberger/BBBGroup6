@@ -74,7 +74,7 @@ ul.events-list li {
   margin: 0 1em 1em 0;
   position: relative;
   width: 150px;
- 
+
 }
 
 ul.events-list li:hover span.text-content {
@@ -108,7 +108,7 @@ span.text-content {
 	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
 	}
-	
+
 
 main {
 	background-color: #FFFAF0;
@@ -120,6 +120,7 @@ main {
 }
 footer {
 	text-align: center;
+  color:#FFFAF0
 }
 
 
@@ -162,6 +163,3 @@ h1, h2, h3{
   font-family: 'Nunito', sans-serif;
   text-align: center;
 }
-
-
-
