@@ -13,6 +13,7 @@ header{
   background: no-repeat;
 }
 
+
 #logo{
   width:100%;
   margin: 0 auto;
@@ -25,11 +26,17 @@ header{
   box-sizing: border-box;
 }
 
+
 #logo img {
   width:30%;
   padding: 5%;
-  max-width: 300px;
 }
+
+@media screen and (max-width:300px){
+  #logo img{
+  width:50%;}
+}
+
 ul#list-nav {
   padding:0;
   list-style:none;
@@ -63,6 +70,49 @@ ul#list-nav li a:hover {
   color:#000
 }
 
+	ul.events-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+	}
+ul.events-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+
+}
+
+ul.events-list li:hover span.text-content {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px){
+  ul#list-nav{
+    display: block;
+  }
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
 #page-wrap {
 	text-align: left;
 	width: 1000px;
@@ -72,8 +122,64 @@ ul#list-nav li a:hover {
 *{
 	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
+  box-sizing:border-box;
 	}
-	
+
+.activities{
+  background-color: #61574B;
+  color: #FFFAF0;
+  border-radius:.5em;
+  padding: .5em;
+  margin-bottom:3%;
+}
+
+.specials{
+    background-color: #61574B;
+  color: #FFFAF0;
+  border-radius:1em;
+  padding: .5em;
+  margin-bottom: 3%;
+
+}
+
+.reviews{
+     background-color: #61574B;
+  color: #FFFAF0;
+  border-radius:.5em;
+  padding: .5em;
+}
+
+@media screen and (min-width: 600px){
+  .activities{
+    width: 30%;
+  display:inline-block;
+  float:left;
+  margin-right:3%;
+  padding: 2%;
+
+  }
+  .specials{
+    width: 30%;
+  display:inline-block;
+  float:left;
+  margin-right: 3%;
+    padding: 2%;
+  margin-left:1%;
+
+  }
+  .reviews{  
+    width: 30%;
+  display:inline-block;
+  float:left;
+    padding: 2%
+
+
+  }
+}
+
+#events{
+  clear:left;
+}
 
 main {
 	background-color: #FFFAF0;
@@ -85,6 +191,7 @@ main {
 }
 footer {
 	text-align: center;
+  color:#FFFAF0
 }
 
 
@@ -123,10 +230,50 @@ img {
 
 
 h1, h2, h3{
-  font-size: 1.5em;
   font-family: 'Nunito', sans-serif;
   text-align: center;
 }
+h1{
+   font-size: 3em;
+}
+h2{
+  font-size: 1.5em;
+}
 
+.sweetheart {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: .5em;
+    padding: 2em;
+  padding-top: .3em;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+}
+
+.tree {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: .5em;
+  padding: 2em;
+  padding-top: .3em;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+}
+
+.enchantment {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: .5em;
+    padding: 2em;
+  padding-top: .3em;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+}
+
+.africa {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: .5em;
+    padding: 2em;
+  padding-top: .3em;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+}
 
 
