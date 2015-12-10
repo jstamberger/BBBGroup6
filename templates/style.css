@@ -126,6 +126,9 @@ span.text-content {
 	}
 
 
+.owners {
+	float:right;
+}
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
