@@ -33,9 +33,9 @@ header{
   padding: 5%;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (max-width: 300px){
 	#logo img {
-		width: 50%
+		width: 100%
 		padding: 5%;
 	}
 }
@@ -127,6 +127,7 @@ span.text-content {
 
 .owners img {
 	border-radius: .5em;
+	float: right;
 }
 
 .owners {
