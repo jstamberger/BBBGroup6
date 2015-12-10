@@ -15,11 +15,9 @@ header{
 
 .owners img {
 	border-radius: .5em;
+	font-size: 5em;
 }
 
-.owners {
-	float: left;
-}
 #logo{
   width:100%;
   margin: 0 auto;
