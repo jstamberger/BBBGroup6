@@ -13,9 +13,7 @@ header{
   background: no-repeat;
 }
 
-.owners img {
-	border-radius: .5em;
-}
+
 
 #logo{
   width:100%;
@@ -35,10 +33,6 @@ header{
   padding: 5%;
 }
 
-/*@media screen and (max-width:300px){
-  #logo img{
-  width:50%;}*/
-}
 
 ul#list-nav {
   padding:0;
@@ -128,6 +122,9 @@ span.text-content {
   box-sizing:border-box;
 	}
 
+.owners img {
+	border-radius: .5em;
+}
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
