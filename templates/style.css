@@ -15,7 +15,6 @@ header{
 
 .owners img {
 	border-radius: .5em;
-	font-size: 5em;
 }
 
 #logo{
@@ -32,13 +31,13 @@ header{
 
 
 #logo img {
-  width:30%;
+  width:100%;
   padding: 5%;
 }
 
-@media screen and (max-width:300px){
+/*@media screen and (max-width:300px){
   #logo img{
-  width:50%;}
+  width:50%;}*/
 }
 
 ul#list-nav {
