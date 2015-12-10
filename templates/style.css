@@ -33,7 +33,12 @@ header{
   padding: 5%;
 }
 
-
+@media screen and (min-width: 300px){
+	#logo img {
+		width: 50%
+		padding: 5%;
+	}
+}
 ul#list-nav {
   padding:0;
   list-style:none;
