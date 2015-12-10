@@ -29,7 +29,7 @@ header{
 
 
 #logo img {
-  width:30%;
+  width:50%;
   padding: 5%;
 }
 
@@ -79,7 +79,6 @@ ul.events-list li {
   margin: 0 1em 1em 0;
   position: relative;
   width: 150px;
-
 }
 
 ul.events-list li:hover span.text-content {
@@ -87,11 +86,10 @@ ul.events-list li:hover span.text-content {
 }
 
 @media screen and (max-width: 600px){
-  ul#list-nav{
+  ul#list-nav {
     display: block;
   }
 }
-
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
