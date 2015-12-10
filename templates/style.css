@@ -125,10 +125,13 @@ span.text-content {
   box-sizing:border-box;
 	}
 
-.owners img {
-	border-radius: .5em;
-}
 
+<<<<<<< HEAD
+=======
+.owners {
+	float:right;
+}
+>>>>>>> origin/gh-pages
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
