@@ -132,6 +132,7 @@ span.text-content {
 
 .owner-text {
 	  float: right;
+	  clear: left;
     margin: 0 0 10px 10px;
 
 }
