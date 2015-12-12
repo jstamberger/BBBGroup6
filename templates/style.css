@@ -131,7 +131,8 @@ span.text-content {
 }
 
 .owner-text {
-	text-align: absolute;
+	text-align: relative;
+
 }
 .activities{
   background-color: #61574B;
