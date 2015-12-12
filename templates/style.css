@@ -126,7 +126,7 @@ span.text-content {
 	}
 
 
-.owners {
+#owners {
 	display: inline-block;
 	float:right;
 }
