@@ -126,6 +126,8 @@ span.text-content {
 
 }
 
+
+
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
@@ -158,7 +160,7 @@ span.text-content {
   margin-right:3%;
   padding: 2%;
 
-  }
+}
   .specials{
     width: 30%;
   display:inline-block;
@@ -173,6 +175,7 @@ span.text-content {
   display:inline-block;
   float:left;
     padding: 2%
+}
 }
 
 #events{
