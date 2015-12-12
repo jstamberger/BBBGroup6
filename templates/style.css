@@ -132,6 +132,7 @@ span.text-content {
 
 blockquote {
 	float: right;
+	vertical-align: right;
 }
 
 }
