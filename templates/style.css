@@ -13,8 +13,6 @@ header{
   background: no-repeat;
 }
 
-
-
 #logo{
   width:100%;
   margin: 0 auto;
@@ -30,7 +28,9 @@ header{
 
 #logo img {
   width:50%;
-  padding: 5%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 @media screen and (max-width: 300px){
@@ -125,6 +125,13 @@ span.text-content {
   box-sizing:border-box;
 	}
 
+<<<<<<< HEAD
+=======
+.owners {
+	float:right;
+}
+
+>>>>>>> origin/gh-pages
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
@@ -167,7 +174,7 @@ span.text-content {
   margin-left:1%;
 
   }
-  .reviews{  
+  .reviews{
     width: 30%;
   display:inline-block;
   float:left;
@@ -223,6 +230,7 @@ img {
   margin: 0;
   padding: .1em;
   padding-left: 1em;
+  padding-bottom: .3em;
   background-color:rgb(104, 11, 3);
   width:100%;
 }
@@ -275,5 +283,3 @@ h2{
   padding-bottom: .5em;
   margin-bottom: 1em;
 }
-
-
