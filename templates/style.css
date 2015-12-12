@@ -182,8 +182,9 @@ span.text-content {
   clear:left;
 }
 
-#events img {
-	width:50%;
+.wedding {
+	width: 50%;
+}
 }
 main {
   background-color: #FFFAF0;
