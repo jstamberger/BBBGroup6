@@ -132,7 +132,7 @@ span.text-content {
 
 .owners p {
 	text-align: relative;
-	display: block;
+	float: left;
 }
 .activities{
   background-color: #61574B;
