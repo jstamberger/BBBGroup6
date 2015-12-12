@@ -235,7 +235,7 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-	.gallery-cell{
+	.gallery-cell p{
 		font-size:20%;
 	}
 }
