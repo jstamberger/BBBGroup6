@@ -132,6 +132,7 @@ span.text-content {
 
 .owner-text {
 	text-align: relative;
+	float:right;
 
 }
 .activities{
