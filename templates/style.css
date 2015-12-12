@@ -130,9 +130,8 @@ span.text-content {
 	width: 65%;	
 }
 
-.owners p {
-	float: left;
-	text-align: vertical;
+blockquote {
+	float: right;
 }
 
 }
