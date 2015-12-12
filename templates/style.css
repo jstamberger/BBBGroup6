@@ -127,9 +127,12 @@ span.text-content {
 
 
 .owners img {
-	width: 65%;
+	width: 65%;	
+}
+
+.owners p {
+	float: left;
 	text-align: vertical;
-	
 }
 
 }
