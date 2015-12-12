@@ -130,11 +130,6 @@ span.text-content {
 	width: 65%;
 }
 
-@media screen and (max-width: 200px) {
-	.owners {
-		width:50%;
-	}
-}
 
 .activities{
   background-color: #61574B;
