@@ -125,13 +125,13 @@ span.text-content {
   box-sizing:border-box;
 	}
 
-<<<<<<< HEAD
-=======
+
 .owners {
+	display: inline-block;
 	float:right;
 }
 
->>>>>>> origin/gh-pages
+
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
