@@ -127,12 +127,12 @@ span.text-content {
 
 
 .owners {
-	width: 50%;
+	width: 65%;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 200px) {
 	.owners {
-		width:80%;
+		width:50%;
 	}
 }
 
