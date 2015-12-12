@@ -126,12 +126,15 @@ span.text-content {
 	}
 
 
-.owners {
+.owners img {
 	width: 65%;
+	
 }
 
-.owner-text {
-	display: inline-block;
+.owners {
+	display:inline-block;
+	float:right;
+}
 
 }
 .activities{
