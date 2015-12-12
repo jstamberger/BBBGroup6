@@ -235,6 +235,11 @@ img {
   width:100%;
 }
 
+@media and screen (min-width: 600px) {
+	.gallery-cell{
+		font-size:20%;
+	}
+}
 
 
 h1, h2, h3{
