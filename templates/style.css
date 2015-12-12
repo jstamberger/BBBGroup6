@@ -126,7 +126,9 @@ span.text-content {
 
 }
 
-
+.owners img{
+	width:50%;
+}
 
 .activities{
   background-color: #61574B;
