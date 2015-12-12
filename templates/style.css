@@ -130,7 +130,9 @@ span.text-content {
 	width: 65%;
 }
 
-
+.owners p {
+	float: right;
+}
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
