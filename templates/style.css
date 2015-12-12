@@ -123,19 +123,9 @@ span.text-content {
 	font-size: 1em;
 	font-family: 'Dosis', sans-serif;
   box-sizing:border-box;
-	}
-
-
-.owners img {
-	width: 65%;	
-}
-
-blockquote {
-	float: right;
-	vertical-align: right;
-}
 
 }
+
 .activities{
   background-color: #61574B;
   color: #FFFAF0;
@@ -178,14 +168,11 @@ blockquote {
   margin-left:1%;
 
   }
-  .reviews{
+  .reviews {
     width: 30%;
   display:inline-block;
   float:left;
     padding: 2%
-
-
-  }
 }
 
 #events{
