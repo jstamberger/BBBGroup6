@@ -235,7 +235,7 @@ img {
   width:100%;
 }
 
-@media and screen (min-width: 600px) {
+@media screen and (min-width: 600px) {
 	.gallery-cell{
 		font-size:20%;
 	}
