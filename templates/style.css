@@ -127,8 +127,7 @@ span.text-content {
 
 
 #owners {
-	display: inline-block;
-	float:right;
+	width: 100%;
 }
 
 
