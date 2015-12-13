@@ -164,7 +164,7 @@ margin-right:10px;}
   padding: .5em;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 600px){
   .activities{
     width: 30%;
   display:inline-block;
