@@ -141,6 +141,7 @@ margin-right:10px;}
 	width:50%;
 }
 .activities{
+		display:block;
   background-color: #61574B;
   color: #FFFAF0;
   border-radius:.5em;
@@ -149,6 +150,7 @@ margin-right:10px;}
 }
 
 .specials{
+	display:block
     background-color: #61574B;
   color: #FFFAF0;
   border-radius:1em;
@@ -158,6 +160,7 @@ margin-right:10px;}
 }
 
 .reviews{
+		display:block;
      background-color: #61574B;
   color: #FFFAF0;
   border-radius:.5em;
