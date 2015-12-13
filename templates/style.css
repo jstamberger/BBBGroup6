@@ -210,6 +210,15 @@ margin-bottom:3%;
 	clear:left;
 }
 
+#wedding p {
+	display:block;
+	width:50%;
+	float:left;
+margin-right:10px;
+	
+}
+}
+
 main {
   background-color: #FFFAF0;
   padding: 1em;
