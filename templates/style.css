@@ -175,7 +175,7 @@ margin-right:10px;}
 }
   .specials{
     width: 30%;
-  display:inline-block;
+  display:block;
   float:left;
   margin-right: 3%;
     padding: 2%;
