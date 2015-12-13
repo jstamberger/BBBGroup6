@@ -156,7 +156,7 @@ margin-right:10px;}
   border-radius:1em;
   padding: .5em;
   margin-bottom: 3%;
-  float:bottom-left;
+  clear: left;
 
 }
 
