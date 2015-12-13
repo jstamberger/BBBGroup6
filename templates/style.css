@@ -35,7 +35,7 @@ header{
 
 @media screen and (max-width: 300px){
 	#logo img {
-		width: 100%
+		width: 100%;
 		padding: 5%;
 	}
 	
@@ -215,7 +215,7 @@ main {
 }
 footer {
 	text-align: center;
-  color:#FFFAF0
+  color:#FFFAF0;
 }
 
 
