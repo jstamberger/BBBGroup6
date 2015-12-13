@@ -140,7 +140,15 @@ margin-right:10px;
 margin-right:10px;
 }
 
-
+.contact {
+	display: block;
+  background-color: #61574B;
+  color: #FFFAF0;
+  border-radius:.5em;
+  padding: .5em;
+  margin-bottom:3%;
+    margin-top: 3%;	
+}
 
 .activities {
  display: block;
