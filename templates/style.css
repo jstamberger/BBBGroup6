@@ -45,8 +45,8 @@ ul#list-nav {
   list-style:none;
   width:100%;
   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   background:#61574B;
 }
 
@@ -204,6 +204,10 @@ margin-bottom:3%;
 
 #events{
   clear:left;
+}
+
+#reservations {
+	clear:left;
 }
 
 main {
