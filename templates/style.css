@@ -142,6 +142,7 @@ margin-right:10px;
 
 .contact {
 	display: inline-block;
+	position:center;
   background-color: #D3D3D3;
   color: #FFFAF0;
   border-radius:.5em;
