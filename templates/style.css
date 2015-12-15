@@ -45,7 +45,7 @@ header{
 		padding: 5%;
 	}
 	}
-	
+
 ul#list-nav {
   padding:0;
   list-style:none;
@@ -131,7 +131,7 @@ span.text-content {
   box-sizing:border-box;
 
 }
- 
+
 .align-left-medium {
 	display:block;
 	width:50%;
@@ -152,7 +152,7 @@ margin-right:10px;
   color: #FFFAF0;
   border-radius:.5em;
   padding: .5em;
-margin-top: 4%;  
+margin-top: 4%;
 color: rgb(104, 11, 3);
 }
 
@@ -224,7 +224,7 @@ color: rgb(104, 11, 3);
 	clear:left;
 }
 
-.two-events { 
+.two-events {
 display:inline-block;
   padding: .5em;
   margin-bottom: 3%;
@@ -335,15 +335,7 @@ h2{
   margin-bottom: 1em;
 }
 
-
-
-
-
-
-
-
-
-
-
-	
-	
+a:link {color: #61574B; text-decoration: underline; }
+a:active {color: #0000ff; text-decoration: underline; }
+a:visited {color: #008000; text-decoration: underline; }
+a:hover {color: #ff0000; text-decoration: none; }
