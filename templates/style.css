@@ -33,6 +33,12 @@ header{
   padding-right: 5%;
 }
 
+@media screen and (min-width: 600px) {
+	#logo img {
+		width:50%;
+	}
+}
+
 @media screen and (max-width: 300px){
 	#logo img {
 		width: 100%;
