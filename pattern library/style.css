@@ -161,6 +161,8 @@ h1{
   font-size: 1.8em;
   font-family: 'Nunito', sans-serif;
   text-align: center;
+  .clear
+  float:left;
 }
 
 h2, h3{
