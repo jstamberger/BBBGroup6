@@ -7,7 +7,7 @@
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
   </head>
-
+<main>
 <div class="pt">
   <h1> Project Timeline </h1>
   <div id="logo">
@@ -49,6 +49,7 @@
   <h3> Pattern Library </h3>
   <a href="pattern library/index.html"> pattern library</a>
   </div>
+</main>
   </body>
   </html>
   <style>
@@ -88,16 +89,21 @@ a:hover {color: black; text-decoration: none; }
   margin-top: 3%;
   width: 600px;
 }
-  @media screen and (min-width: 600px){
-    body{
-      width:30%;
-    }
-    }
+
     #logo{
       width:100%;
       margin: 0 auto;
       margin-top:.5em;
       text-align: center;
       max-width: 1000px;
+    }
+    main {
+      background-color: #FFFAF0;
+      padding: 1em;
+      margin-bottom: 1em;
+      max-width:100%;
+      margin:0 auto;
+      box-sizing: border-box;
+      display: inline-block;
     }
   </style>
