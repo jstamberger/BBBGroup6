@@ -27,7 +27,7 @@ header{
 
 
 #logo img {
-  width:50%;
+  width:100%;
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -102,6 +102,7 @@ ul.events-list li:hover span.text-content {
     display: block;
   }
 }
+
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
